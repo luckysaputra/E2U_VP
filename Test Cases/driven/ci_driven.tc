@@ -229,4 +229,11 @@
       <masked>false</masked>
       <name>xlpay</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>89085e12-ff45-4c65-9bc4-e3ccac0c0fa2</id>
+      <masked>false</masked>
+      <name>xlpremi</name>
+   </variable>
 </TestCaseEntity>

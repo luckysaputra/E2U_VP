@@ -307,5 +307,11 @@
          <value>xlpay</value>
          <variableId>48e4ada1-87ff-4085-a723-25df719cd96b</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>5adbccd7-74de-4a39-a487-0ca00d632598</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xlpremi</value>
+         <variableId>fe58e631-6189-4068-b3d5-24356ca9a2f8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

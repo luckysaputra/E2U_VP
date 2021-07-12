@@ -165,7 +165,9 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 				//WebUI.click(Path.BUTTON_SAYA_SETUJU_SK_LIFE)
 				if (WebUI.verifyElementText(Path.VERIFY_PREMI_LIFE, verify_premi_life, FailureHandling.OPTIONAL) == false)
 					{
-				
+						actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+						ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+						ExcelKeywords.saveWorkbook(excelFile, workbook)
 						KeywordUtil.markError("PREMI YANG ANDA INPUT TIDAK SESUAI")
 						ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'Unmatch Premi')
 						WebUI.click(Path.BUTTON_BAYAR_LIFE)
@@ -292,7 +294,9 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 				//WebUI.click(Path.BUTTON_SAYA_SETUJU_SK_LIFE)
 				if (WebUI.verifyElementText(Path.VERIFY_PREMI_LIFE, verify_premi_life, FailureHandling.OPTIONAL) == false)
 					{
-				
+						actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+						ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+						ExcelKeywords.saveWorkbook(excelFile, workbook)
 						KeywordUtil.markError("PREMI YANG ANDA INPUT TIDAK SESUAI")
 						ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'Unmatch Premi')
 						WebUI.click(Path.BUTTON_BAYAR_LIFE)
@@ -433,7 +437,9 @@ WebUI.sendKeys(Path.BUTTON_SAYA_SETUJU_SK_LIFE, Keys.chord(Keys.ENTER))
 //WebUI.click(Path.BUTTON_SAYA_SETUJU_SK_LIFE)
 if (WebUI.verifyElementText(Path.VERIFY_PREMI_LIFE, verify_premi_life, FailureHandling.OPTIONAL) == false)
 	{
-
+		actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+		ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+		ExcelKeywords.saveWorkbook(excelFile, workbook)
 		KeywordUtil.markError("PREMI YANG ANDA INPUT TIDAK SESUAI")
 		ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'Unmatch Premi')
 		WebUI.click(Path.BUTTON_BAYAR_LIFE)

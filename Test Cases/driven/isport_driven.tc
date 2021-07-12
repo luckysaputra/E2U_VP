@@ -292,4 +292,11 @@
       <masked>false</masked>
       <name>perlindungan_tambahan_2</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5d4b9cc-c207-4ed8-b5e4-ffa34248550c</id>
+      <masked>false</masked>
+      <name>xlpremi</name>
+   </variable>
 </TestCaseEntity>

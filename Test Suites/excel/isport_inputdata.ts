@@ -271,5 +271,11 @@
          <value>perlindungan_tambahan_2</value>
          <variableId>15e09810-f249-4594-94b6-3993bee3a2e6</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>b37a56e3-20fb-4287-9406-d0036564f729</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xlpremi</value>
+         <variableId>e5d4b9cc-c207-4ed8-b5e4-ffa34248550c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
