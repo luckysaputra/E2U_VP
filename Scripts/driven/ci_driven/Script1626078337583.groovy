@@ -185,6 +185,9 @@ println(dataexistcon)
 						}
 					else
 						{
+							actual_premi = (WebUI.getText(Path.VERIFY_PREMI_CI))
+							ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+							ExcelKeywords.saveWorkbook(excelFile, workbook)
 							ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
 							WebUI.click(Path.BUTTON_BAYAR_SCRN4_CI)
 							ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
@@ -277,6 +280,9 @@ println(dataexistcon)
 						}
 					else
 						{
+							actual_premi = (WebUI.getText(Path.VERIFY_PREMI_CI))
+							ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+							ExcelKeywords.saveWorkbook(excelFile, workbook)
 							ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
 							WebUI.click(Path.BUTTON_BAYAR_SCRN4_CI)
 							ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
@@ -378,6 +384,9 @@ WebUI.scrollToElement(Path.VERIFY_PREMI_CI, 0)
 							}
 					else
 							{
+								actual_premi = (WebUI.getText(Path.VERIFY_PREMI_CI))
+								ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+								ExcelKeywords.saveWorkbook(excelFile, workbook)
 								ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
 								WebUI.click(Path.BUTTON_BAYAR_SCRN4_CI)
 								ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')

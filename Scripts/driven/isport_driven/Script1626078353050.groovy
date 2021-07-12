@@ -221,12 +221,15 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 						}
 				else
 						{
-					ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
-					WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
-					WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
-					ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
-					ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-					ExcelKeywords.saveWorkbook(excelFile, workbook)
+							actual_premi = (WebUI.getText(Path.VERIFY_PREMI_SPORT))
+							ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+							ExcelKeywords.saveWorkbook(excelFile, workbook)
+							ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
+							WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
+							WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
+							ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
+							ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+							ExcelKeywords.saveWorkbook(excelFile, workbook)
 //DOKU=====================================================================================================================
 					
 					WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
@@ -335,12 +338,15 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 								}
 						else
 								{
-							ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
-							WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
-							WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
-							ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
-							ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-							ExcelKeywords.saveWorkbook(excelFile, workbook)
+									actual_premi = (WebUI.getText(Path.VERIFY_PREMI_SPORT))
+									ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+									ExcelKeywords.saveWorkbook(excelFile, workbook)
+									ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
+									WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
+									WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
+									ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
+									ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+									ExcelKeywords.saveWorkbook(excelFile, workbook)
 								}
 						ExcelKeywords.saveWorkbook(excelFile, workbook)
 					}
@@ -368,6 +374,9 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 								}
 						else
 								{
+									actual_premi = (WebUI.getText(Path.VERIFY_PREMI_SPORT))
+									ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+									ExcelKeywords.saveWorkbook(excelFile, workbook)
 									ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
 									WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
 									WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
@@ -498,25 +507,28 @@ if (WebUI.verifyElementText(Path.VERIFY_PREMI_SPORT, verify_premi_sport, Failure
 		}
 else
 		{
-	ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
-	WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
-	WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
-	ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
-	ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-	ExcelKeywords.saveWorkbook(excelFile, workbook)
-	WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 10)
-	WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
-	WebUI.callTestCase(findTestCase('cformRecur/wcc-wv'), [('ccnum_1') : ccnum_1, ('ccnum_2') : ccnum_2, ('ccnum_3') : ccnum_3, ('ccnum_4') : ccnum_4
-		, ('cc_month_expired') : cc_month_expired, ('cc_year_expired') : cc_year_expired, ('cvv') : cvv, ('cc_name') : nama_ktp_pembeli, ('cc_email') : email_pembeli, ('cc_phone_number') : no_hp_pembeli],
-	FailureHandling.STOP_ON_FAILURE)
-	OTP = WebUI.getText(Path.R_DOKU_OTP)
-	println(OTP);
-	//OTP_final = OTP.replace("Kado ", "")
-	WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
-	WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
-	WebUI.waitForElementVisible(Path.DOKU_RED_RESULT, 30)
-	dokustat_print = WebUI.getText(Path.DOKU_RED_RESULT)
-	println(dokustat_print);
+			actual_premi = (WebUI.getText(Path.VERIFY_PREMI_SPORT))
+			ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+			ExcelKeywords.saveWorkbook(excelFile, workbook)
+			ExcelKeywords.setValueToCellByAddress(report, xlvar7, 'OK')
+			WebUI.scrollToElement(Path.BUTTON_BAYAR_SPORT, 0)
+			WebUI.sendKeys(Path.BUTTON_BAYAR_SPORT, Keys.chord(Keys.ENTER))
+			ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
+			ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+			ExcelKeywords.saveWorkbook(excelFile, workbook)
+			WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 10)
+			WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
+			WebUI.callTestCase(findTestCase('cformRecur/wcc-wv'), [('ccnum_1') : ccnum_1, ('ccnum_2') : ccnum_2, ('ccnum_3') : ccnum_3, ('ccnum_4') : ccnum_4
+				, ('cc_month_expired') : cc_month_expired, ('cc_year_expired') : cc_year_expired, ('cvv') : cvv, ('cc_name') : nama_ktp_pembeli, ('cc_email') : email_pembeli, ('cc_phone_number') : no_hp_pembeli],
+			FailureHandling.STOP_ON_FAILURE)
+			OTP = WebUI.getText(Path.R_DOKU_OTP)
+			println(OTP);
+			//OTP_final = OTP.replace("Kado ", "")
+			WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
+			WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
+			WebUI.waitForElementVisible(Path.DOKU_RED_RESULT, 30)
+			dokustat_print = WebUI.getText(Path.DOKU_RED_RESULT)
+			println(dokustat_print);
 										//DOKU CONDITION
 										if (WebUI.verifyElementText(Path.DOKU_RED_RESULT, "Transaction Successful", FailureHandling.OPTIONAL) == true)
 												{

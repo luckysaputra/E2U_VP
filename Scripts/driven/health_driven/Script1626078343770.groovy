@@ -278,22 +278,26 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 							}
 					else
 							{
-						ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
-						WebUI.click(Path.BUTTON_BAYAR_HEALTH)
-						ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
-						ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-						WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
-						WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
-						WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
-							, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
-							, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
-						OTP = WebUI.getText(Path.R_DOKU_OTP)
-						println(OTP);
-						WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
-						WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
-						WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
-						doku_result = WebUI.getText(Path.DOKU_RESULT)
-						println(doku_result);
+								
+								actual_premi = (WebUI.getText(Path.VERIFY_PREMI_HEALTH))
+								ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+								ExcelKeywords.saveWorkbook(excelFile, workbook)
+								ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
+								WebUI.click(Path.BUTTON_BAYAR_HEALTH)
+								ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
+								ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+								WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
+								WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
+								WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
+									, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
+									, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
+								OTP = WebUI.getText(Path.R_DOKU_OTP)
+								println(OTP);
+								WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
+								WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
+								WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
+								doku_result = WebUI.getText(Path.DOKU_RESULT)
+								println(doku_result);
 								if (WebUI.verifyElementText(Path.DOKU_RESULT, "TRANSAKSI SUKSES", FailureHandling.OPTIONAL) == true)
 									{
 										KeywordUtil.markPassed("TRANSAKSI SUKSES")
@@ -369,22 +373,25 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 										}
 								else
 										{
-									ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
-									WebUI.click(Path.BUTTON_BAYAR_HEALTH)
-									ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
-									ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-									WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
-									WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
-									WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
-										, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
-										, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
-									OTP = WebUI.getText(Path.R_DOKU_OTP)
-									println(OTP);
-									WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
-									WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
-									WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
-									doku_result = WebUI.getText(Path.DOKU_RESULT)
-									println(doku_result);
+											actual_premi = (WebUI.getText(Path.VERIFY_PREMI_HEALTH))
+											ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+											ExcelKeywords.saveWorkbook(excelFile, workbook)
+											ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
+											WebUI.click(Path.BUTTON_BAYAR_HEALTH)
+											ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
+											ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+											WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
+											WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
+											WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
+												, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
+												, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
+											OTP = WebUI.getText(Path.R_DOKU_OTP)
+											println(OTP);
+											WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
+											WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
+											WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
+											doku_result = WebUI.getText(Path.DOKU_RESULT)
+											println(doku_result);
 											if (WebUI.verifyElementText(Path.DOKU_RESULT, "TRANSAKSI SUKSES", FailureHandling.OPTIONAL) == true)
 												{
 													KeywordUtil.markPassed("TRANSAKSI SUKSES")
@@ -464,22 +471,25 @@ if (WebUI.verifyElementText(Path.VERIFY_PREMI_HEALTH, verify_premi_health, Failu
 		}
 else
 		{
-	ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
-	WebUI.click(Path.BUTTON_BAYAR_HEALTH)
-	ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
-	ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
-	WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
-	WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
-	WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
-		, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
-		, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
-	OTP = WebUI.getText(Path.R_DOKU_OTP)
-	println(OTP);
-	WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
-	WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
-	WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
-	doku_result = WebUI.getText(Path.DOKU_RESULT)
-	println(doku_result);
+			actual_premi = (WebUI.getText(Path.VERIFY_PREMI_HEALTH))
+			ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+			ExcelKeywords.saveWorkbook(excelFile, workbook)
+			ExcelKeywords.setValueToCellByAddress(report, xlvar11, 'OK')
+			WebUI.click(Path.BUTTON_BAYAR_HEALTH)
+			ExcelKeywords.setValueToCellByAddress(report, xlvar12, 'OK')
+			ExcelKeywords.setValueToCellByAddress(report, xlstat, 'PASSED')
+			WebUI.waitForElementVisible(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC, 30)
+			WebUI.click(Path.PEMBAYARAN_BUTTON_BAYAR_VISA_CC)
+			WebUI.callTestCase(findTestCase('cformRecur/wcc-default'), [('nomor_credit_card') : nomor_credit_card, ('bulan_expired_cc') : bulan_expired_cc, ('tahun_expired_cc') : tahun_expired_cc
+				, ('cvv') : cvv, ('cc_nama') : nama_ktp, ('cc_alamat') : alamat, ('cc_kota') : cc_kota, ('cc_negara') : cc_negara, ('cc_provinsi') : provinsi
+				, ('cc_kodepos') : kodepos, ('cc_email') : email, ('cc_no_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
+			OTP = WebUI.getText(Path.R_DOKU_OTP)
+			println(OTP);
+			WebUI.setText(Path.R_DOKU_SET_OTP, OTP)
+			WebUI.click(Path.R_DOKU_CLICK_SUBMIT_OTP)
+			WebUI.waitForElementVisible(Path.DOKU_RESULT, 30)
+			doku_result = WebUI.getText(Path.DOKU_RESULT)
+			println(doku_result);
 			if (WebUI.verifyElementText(Path.DOKU_RESULT, "TRANSAKSI SUKSES", FailureHandling.OPTIONAL) == true)
 				{
 					KeywordUtil.markPassed("TRANSAKSI SUKSES")
