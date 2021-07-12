@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>gender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7d59ded-dbcf-4ed8-ae58-1f7f4dbca861</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ae9ae34-e27a-4e95-9dbc-523a57a809fe</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+</TestCaseEntity>

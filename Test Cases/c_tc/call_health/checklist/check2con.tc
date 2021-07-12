@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>check2con</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f100357-7000-4081-892b-b817743c5138</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f1023bb-7343-42d0-aa99-3929cca2184a</id>
+      <masked>false</masked>
+      <name>check2</name>
+   </variable>
+</TestCaseEntity>

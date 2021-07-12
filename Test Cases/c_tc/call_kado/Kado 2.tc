@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kado 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eae62dcd-0a91-4b38-b9e6-4ca57e85b58b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>550acbe0-2ca8-4b43-b616-bc3bda1b45ad</id>
+      <masked>false</masked>
+      <name>typevar</name>
+   </variable>
+</TestCaseEntity>

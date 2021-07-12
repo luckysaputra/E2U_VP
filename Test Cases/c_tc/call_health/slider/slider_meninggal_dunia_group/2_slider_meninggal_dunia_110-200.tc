@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2_slider_meninggal_dunia_110-200</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a07658fa-4f13-4083-baeb-4f7f5357151b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f54c9aea-dc31-49ad-bd9e-f888c2bd2dff</id>
+      <masked>false</masked>
+      <name>slider_meninggal_dunia</name>
+   </variable>
+</TestCaseEntity>

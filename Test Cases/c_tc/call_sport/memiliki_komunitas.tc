@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>memiliki_komunitas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0881e833-2d00-434c-8a04-d72db31a1448</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67059046-c075-4c9a-95b3-5ea94460fbfe</id>
+      <masked>false</masked>
+      <name>memiliki_komunitas</name>
+   </variable>
+</TestCaseEntity>

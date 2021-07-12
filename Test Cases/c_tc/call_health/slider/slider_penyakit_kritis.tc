@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>slider_penyakit_kritis</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d4327b0-85e0-4aea-ab11-d8c6664d1f71</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1641b1b-beb5-452e-958b-08a621642800</id>
+      <masked>false</masked>
+      <name>slider_penyakit_kritis</name>
+   </variable>
+</TestCaseEntity>

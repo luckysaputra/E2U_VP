@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>harga_kado</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23afb2ea-949d-47c3-9fab-c90ee82ed99b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9b826f1-108e-4c52-8752-43f7d61e6a1c</id>
+      <masked>false</masked>
+      <name>harga_kado</name>
+   </variable>
+</TestCaseEntity>

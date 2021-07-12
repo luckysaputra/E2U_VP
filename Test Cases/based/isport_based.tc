@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>isport_based</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2e938c2-a485-4ca2-b357-356795e7dcea</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\HP\\Documents\\TEST.jpg'</defaultValue>
+      <description></description>
+      <id>d62a99e8-aa44-4582-b0b1-5c1ec69e7949</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>personalisasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e7baa50-98a5-4164-ba0a-61dae561bd84</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eee04e30-ac73-4081-890b-6a0bfccc6074</id>
+      <masked>false</masked>
+      <name>personalisasi_kado</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eece979c-6fbd-4f1b-a587-932d9b1b799c</id>
+      <masked>false</masked>
+      <name>pilih_tema</name>
+   </variable>
+</TestCaseEntity>

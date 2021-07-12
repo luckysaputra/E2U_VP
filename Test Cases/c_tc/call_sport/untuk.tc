@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>untuk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3712eb4-73dd-48cf-aaac-816eea668467</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e2ce8ec-6b69-48bd-aa12-34cec544805c</id>
+      <masked>false</masked>
+      <name>untuk</name>
+   </variable>
+</TestCaseEntity>

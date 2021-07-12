@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>relaytest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>353baea1-476c-4413-b422-bf069e413c20</testCaseGuid>
+   <variable>
+      <defaultValue>'Pria'</defaultValue>
+      <description></description>
+      <id>99d35e59-1aec-4218-85b2-e4a3041fe36d</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

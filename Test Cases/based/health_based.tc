@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>health_based</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8237cac-1cdf-427a-9327-73129bcb503d</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\HP\\Documents\\TEST.jpg'</defaultValue>
+      <description></description>
+      <id>604b6115-3372-462e-8f57-85ad887d1738</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>170</defaultValue>
+      <description></description>
+      <id>70f8c4f2-07c7-4603-9880-af6cca323e16</id>
+      <masked>false</masked>
+      <name>meninggal_dunia</name>
+   </variable>
+   <variable>
+      <defaultValue>350</defaultValue>
+      <description></description>
+      <id>f5f6e2c2-7682-471a-9826-93cd13405883</id>
+      <masked>false</masked>
+      <name>rawat_inap</name>
+   </variable>
+   <variable>
+      <defaultValue>400</defaultValue>
+      <description></description>
+      <id>77250d4b-291b-4621-8e5e-2a22bf49cd38</id>
+      <masked>false</masked>
+      <name>biaya_bedah</name>
+   </variable>
+   <variable>
+      <defaultValue>300</defaultValue>
+      <description></description>
+      <id>745c26dd-492d-462e-839f-ae8bc8665b7c</id>
+      <masked>false</masked>
+      <name>penyakit_kritis</name>
+   </variable>
+</TestCaseEntity>

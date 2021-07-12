@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>penerima_life_4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>414b54cb-a517-4ad7-995c-a0cd7f108505</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>134b6a13-ab79-45e8-82a8-927cdeec5ccd</id>
+      <masked>false</masked>
+      <name>penerima_manfaat_4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>844a64f4-ae3d-4435-9ce9-2aaafb36ed47</id>
+      <masked>false</masked>
+      <name>dia_adalah_4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>510b9394-7f20-4fb6-ae93-0e4c78aaa78c</id>
+      <masked>false</masked>
+      <name>presentase_manfaat_4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a96ec54-d3bf-4525-92bd-8cf508fbc483</id>
+      <masked>false</masked>
+      <name>profil_4</name>
+   </variable>
+</TestCaseEntity>

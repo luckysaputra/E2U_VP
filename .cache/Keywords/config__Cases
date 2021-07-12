@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "BF360D722B7529DDE54F2CA1D9016432",
+  "keywordClasses": [
+    {
+      "name": "config.Cases",
+      "keywordMethods": []
+    },
+    {
+      "name": "config.Cases$SelectorType",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

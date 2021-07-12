@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>check5con</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7741375-f4db-4687-86f4-b9d80a32160f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3770b8ef-16cc-495c-9bd6-afd095dc2fda</id>
+      <masked>false</masked>
+      <name>check5</name>
+   </variable>
+</TestCaseEntity>

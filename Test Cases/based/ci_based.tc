@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ci_based</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02b9e7dd-543f-4090-bce7-e5eddbd999cb</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\HP\\Documents\\TEST.jpg'</defaultValue>
+      <description></description>
+      <id>c43fb92e-62fb-4e52-9bc5-e79222428d3a</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

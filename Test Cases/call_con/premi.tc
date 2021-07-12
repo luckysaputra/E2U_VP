@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>premi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07deaa20-46bd-479f-ba83-f3d9cb9ec538</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1cc73d54-53d1-4a10-8408-4395ce6fdddf</id>
+      <masked>false</masked>
+      <name>premi</name>
+   </variable>
+</TestCaseEntity>

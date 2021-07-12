@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>perlindungantambahan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4005e014-76d2-4c40-a65e-d42faf69b25d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebe50be3-d3f0-449e-9aa7-b32d209ccb47</id>
+      <masked>false</masked>
+      <name>perlindungan_tambahan</name>
+   </variable>
+</TestCaseEntity>

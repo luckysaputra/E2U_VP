@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>no_hp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72b57559-71e4-4098-ac2d-59c3290c3886</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1a0a25b-ba61-416c-b310-802df6d729fc</id>
+      <masked>false</masked>
+      <name>no_hp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4300c493-e88c-4aeb-a652-13a96fc19ce4</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e825ed14-a33e-44e9-ab7e-c22caecbc7f5</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>932a3847-a7d6-44c9-b880-6fec88ec3f87</id>
+      <masked>false</masked>
+      <name>provinsi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1d1b558-6ec8-4b28-bb64-7b4afcb36c45</id>
+      <masked>false</masked>
+      <name>kodepos</name>
+   </variable>
+</TestCaseEntity>

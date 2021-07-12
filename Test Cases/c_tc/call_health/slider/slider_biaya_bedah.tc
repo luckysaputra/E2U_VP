@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>slider_biaya_bedah</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef815f9a-a214-4498-8d0d-246b86a59554</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2c23da3-29a0-405c-a947-a930e61f6fff</id>
+      <masked>false</masked>
+      <name>slider_biaya_bedah</name>
+   </variable>
+</TestCaseEntity>
