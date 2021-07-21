@@ -206,6 +206,9 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 					}
 				else
 					{
+						actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+						ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+						ExcelKeywords.saveWorkbook(excelFile, workbook)
 						ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
 						WebUI.click(Path.BUTTON_BAYAR_LIFE)
 						ExcelKeywords.setValueToCellByAddress(report, xlvar9, 'OK')
@@ -335,6 +338,9 @@ if (WebUI.verifyElementVisible(btnexist, FailureHandling.OPTIONAL) == true)
 					}
 				else
 					{
+						actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+						ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+						ExcelKeywords.saveWorkbook(excelFile, workbook)
 						ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
 						WebUI.click(Path.BUTTON_BAYAR_LIFE)
 						ExcelKeywords.setValueToCellByAddress(report, xlvar9, 'OK')
@@ -478,6 +484,9 @@ if (WebUI.verifyElementText(Path.VERIFY_PREMI_LIFE, verify_premi_life, FailureHa
 	}
 else
 	{
+		actual_premi = (WebUI.getText(Path.VERIFY_PREMI_LIFE))
+		ExcelKeywords.setValueToCellByAddress(report, xlpremi, actual_premi)
+		ExcelKeywords.saveWorkbook(excelFile, workbook)
 		ExcelKeywords.setValueToCellByAddress(report, xlvar8, 'OK')
 		WebUI.click(Path.BUTTON_BAYAR_LIFE)
 		ExcelKeywords.setValueToCellByAddress(report, xlvar9, 'OK')
